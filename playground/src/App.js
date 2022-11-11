@@ -1,12 +1,10 @@
 import React from 'react';
-import { AuthContext, AuthProvider } from './contexts/authContext';
 import {
-    BrowserRouter,
-    Routes,
-    Route
-  } from "react-router-dom";
+    BrowserRouter, Route, Routes
+} from "react-router-dom";
+import { AuthContext } from './contexts/authContext';
   
-import { SignIn, Profile } from 'auth-component-library';
+import { Profile, SignIn } from 'auth-component-library';
 
 const App = ()  => {
 

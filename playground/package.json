@@ -3,22 +3,22 @@
     "version": "0.1.0",
     "private": true,
     "dependencies": {
-        "@material-ui/core": "file:../node_modules/@material-ui/core",
-        "@material-ui/icons": "file:../node_modules/@material-ui/icons",
+        "@material-ui/core": "^4.10.2",
+        "@material-ui/icons": "^4.11.2",
         "@testing-library/jest-dom": "^4.2.4",
         "@testing-library/react": "^9.5.0",
         "@testing-library/user-event": "^7.2.1",
         "auth-component-library": "file:..",
-        "formik": "file:../node_modules/formik",
+        "formik": "^2.2.9",
         "history": "^5.1.0",
-        "react": "file:../node_modules/react",
-        "react-dom": "file:../node_modules/react-dom",
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1",
         "react-router-dom": "^6.0.2",
         "react-scripts": "3.4.3",
-        "yup": "file:../node_modules/yup"
+        "yup": "^0.32.9"
     },
     "scripts": {
-        "start": "react-scripts start",
+        "start": "NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject"
